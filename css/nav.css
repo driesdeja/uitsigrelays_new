@@ -1,0 +1,113 @@
+#nav {
+	margin:0;
+	padding:0;
+	list-style:none;
+	float:none;
+	height:28px;
+	width:100%;
+	overflow:hidden;
+}
+#nav ul {
+	list-style: none; 
+	
+	float: left; 
+	display: block; 
+	left: 50%; 
+	padding-left:20px;
+	padding-right:20px;
+}
+
+#nav a img {
+	position: relative;
+	width: 30px;
+	height: 30px;
+}
+
+/* make the LI display inline */
+    /* it's position relative so that position absolute */
+    /* can be used in submenu */
+    #nav li {
+	float:left;
+	display:block;
+	width:120px;
+	position:relative;
+	z-index:500;
+	margin:0 1px;
+}
+/* this is the parent menu */
+    #nav li a {
+	display:block;
+	padding:8px 5px 0 5px;
+	font-weight:bold;
+	height:23px;
+	text-decoration:none;
+	color:#fff;
+	text-align:center;
+	font-size:14px;
+}
+#nav li a:hover {
+	color: #FFF;
+}
+/* you can make a different style for default selected value */
+    #nav li a.selected {
+	color:#f00;
+}
+/* submenu, it's hidden by default */
+#nav ul ul {
+	position:absolute;
+	display:none;
+	margin:0 0 0 0px;
+	padding:0;
+	list-style:none;
+}
+#nav ul ul li {
+	float: left;
+	background: url(../images/drop-down.gif) repeat-x;
+	
+	
+	
+}
+/* display block will make the link fill the whole area of LI */
+        #nav ul ul a {
+	display:block;
+	height:15px;
+	padding: 8px 5px;
+	color: black;
+	
+	
+}
+#nav ul ul a:hover {
+	font-size:15px;
+	font-weight:bold;
+	text-decoration:underline;
+}
+/* submenu, it's hidden by default */
+	        #nav ul ul ul {
+	position:absolute;
+	left:120px;
+	display:none;
+	margin:-32px 0 0 0px;
+	padding:0;
+	list-style:none;
+}
+#nav ul ul ul li {
+	float:left;
+	border-top:1px solid #fff;
+	width:200px;
+}
+/* display block will make the link fill the whole area of LI */
+	        #nav ul ul ul a {
+	display:block;
+	height:15px;
+	padding: 8px 5px;
+	
+}
+#nav ul ul ul a:hover {
+	text-decoration:underline;
+}
+#nav ul ul ul ul {
+	left:200px;
+}
+#nav ul ul ul ul li {
+	width:100px;
+}

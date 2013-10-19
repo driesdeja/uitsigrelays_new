@@ -1,0 +1,42 @@
+/* 
+    Document   : content-section
+    Created on : Nov 25, 2012, 8:44:40 PM
+    Author     : drdejager
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#content-right-col, 
+#content-left-col,
+#content-col-bottom {
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    height: 300px;
+    border-style: dotted;
+    border-color: black;
+    border-width: 1px;
+}
+
+#content-left-col {
+    
+    
+    background-image: url(/images/get-set-go.png);
+    background-position: center;
+}
+#content-right-col {
+    width: 250px;
+    height: 300px;
+  
+}
+#content-col-bottom {
+    width:543px;
+    height:110px;
+    
+}
+
+.participants ol:n{
+   font-style: bold; 
+    
+}

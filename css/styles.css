@@ -1,0 +1,239 @@
+img.bg {
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:-999;
+}
+
+@media screen and (max-width: 1024px) { 
+    img.bg {
+        left: 50%;
+        margin-left: -512px;   
+    } 
+} 
+
+body {
+    /*background:url(images/track-background.jpg) center no-repeat;*/
+    font-size:0.8em;
+    font-family: arial, sans-serif;
+    color:#333;
+    margin:0;
+    padding:0;
+    height:100%;
+    background:url(../images/background-athletics.jpg) no-repeat bottom;
+}
+#top-strip {
+    background:url(../images/track-top.jpg) no-repeat center top;
+    width:100%;
+}
+#menu-bar {
+    height:100%;
+    background:url(../images/menu-bar.gif) repeat-x;
+}
+#wrapper {
+    width:960px;
+    margin-left:auto;
+    margin-right:auto;
+    background:transparent;
+}
+#header {
+    padding-left:20px;
+    background:url(../images/ur-logo.png) no-repeat;
+    height:112px;
+}
+#header h2 {
+    padding:10px;
+}
+#breadcrumb {
+    color:#CC6666;
+}
+#content {
+    background :transparent;
+    width:941px;
+    border: 1px dotted #991B1E;
+    position: relative;
+    margin-top:22px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:22px;
+    padding:5px;
+    min-height:590px;
+}
+
+#content h1 {
+    font-size:25px;
+}
+#content h1, h2, h3, h4, h5 {
+
+    font-weight:bold;
+    padding: 5px;
+    color:#185359;
+}
+
+
+#content h2 {
+    font-size:14px;
+    font-weight:bold;
+    padding: 5px;
+}
+#content h3 {
+    font-size:14px;
+    font-weight:bold;
+    padding: 5px;
+}
+#content h4 {
+    font-size:12px;
+    font-weight:bold;
+    padding: 5px;
+}
+#content h5 {
+    font-size:14px;
+    font-weight:bold;
+    padding: 5px;
+}
+
+
+#content p {
+    padding: 5px;
+}
+
+#content ul {
+    margin:10px 20px;
+    list-style-type:disc;
+}
+#content ul li {
+
+}
+#content a {
+    text-decoration: none;
+
+    /*color: #185359;*/
+}
+
+#content a:hover {
+    color: #991B1E;
+
+}
+
+#content a:visited {
+    color: blue;
+}
+
+#content ol {
+    list-style-type: decimal;
+
+}
+#content ol li {
+    margin-left: 30px;
+
+}
+#left-col {
+    width:600px;
+    /*border:solid 1px;*/
+}
+#left-col h2 {
+    text-align: center;
+
+}
+#left-col table {
+    width: 300px;
+    padding: 10px;
+
+
+}
+#left-col table th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: red;
+}
+#left-col table table td{
+    text-align: left;
+    border-left-width: 1px;
+    border-left-style: ridge;
+
+}
+#left-col td:first-child{
+    border-left-width: 0px;
+    border-left-style: ridge;
+    text-align: center;
+
+}
+
+#left-col li {
+    list-style-type: none;
+    display: inline;
+    padding: 5px;
+
+
+}
+#left-col ul a, #left-col h3 a{
+    color: blue;
+}
+#result-nav {
+    border-bottom:  #185359;
+    border-bottom-style: dashed;
+    border-bottom-width: 1px;
+}
+#result-nav table {
+    width:100%;
+    font-size: 10px;
+}
+#result-nav ul {
+    margin:0;
+}
+#sidebar {
+    background-color:transparent;
+    width:320px;
+    float:right;
+    margin-bottom:25px;
+
+    /*border:solid 1px;*/
+}
+#sidebar a {
+    text-decoration:none;
+}
+#sidebar li {
+    list-style:none;
+}
+#bottom {
+    background: transparent;
+}
+#footer {
+    color: #FFFFFF;
+    background-color:#991B1E;
+    height:90px;
+
+
+}
+#footer p {
+    padding:10px;
+
+}
+#footer #left {
+    float:left;
+}
+#footer #right {
+    
+    text-align:right;
+}
+#footer #right p {
+   
+
+}
+#footer #right img {
+    width:40px;
+    height:40px;
+}
+.contact-us th {
+    color:red;
+}
+
